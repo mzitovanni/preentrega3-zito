@@ -1,3 +1,7 @@
+$azul-oscuro: #023047
+$gris-oscuro: #3d3f40
+
+
 /* CONTACTO */
 .contacto-flex {
     display: flex;
@@ -27,7 +31,7 @@
     vertical-align: center;
     padding-bottom: 4rem;
     padding-top: 4rem;
-    background-color: #3d3f40;
+    background-color: $gris-oscuro;
     color: antiquewhite;
     text-decoration: none;
 

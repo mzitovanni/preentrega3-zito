@@ -1,3 +1,7 @@
+$azul-oscuro: #023047
+$gris-oscuro: #3d3f40
+
+
 /* DESCRIPCIÓN */
 .texo-descripcion {
     text-align: center;
@@ -30,7 +34,7 @@
 }
 
 .subtitulo-color {
-    background-color: #3d3f40;
+    background-color: $gris-oscuro;
     color: antiquewhite;
     text-align: center;
 
@@ -41,14 +45,14 @@
 .servicios-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #3d3f40;
+    background-color: $gris-oscuro;
     color: antiquewhite;
     padding-bottom: 1rem;
     vertical-align: center;
 }
 
 .button {
-    background-color: #3d3f40;
+    background-color: $gris-oscuro;
     padding-bottom: 6rem;
     padding-top: 2rem;
 }
