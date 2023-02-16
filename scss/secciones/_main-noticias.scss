@@ -1,0 +1,25 @@
+.banner-hero-noticia {
+    background-image: url(/recursos/imagenes/ZMB_banner-noticias.png);
+    height: 30vh;
+    background-size: cover;
+    box-shadow: 0px 4px 20px gray;
+}
+
+.banner-hero-noticia {
+    text-align: left;
+    color: antiquewhite;
+    padding: 2rem;
+    padding-right: 30vw;
+    position: relative;
+    top: 50%;
+}
+
+@media (min-width: 768px) {
+
+    .banner-hero-noticia {
+        height: 70vh;
+        padding: 20vh;
+        padding-right: 40%;
+        font-size:180%;      
+    }
+}
