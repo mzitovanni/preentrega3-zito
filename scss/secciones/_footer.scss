@@ -1,0 +1,40 @@
+/* FOOTER */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: linear-gradient(0deg, rgba(2,48,71,1) 0%, rgba(10,85,102,1) 61%);    
+    padding: 3rem;
+    
+}
+
+.footer-text {
+    color: antiquewhite;
+    font-size: 11px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo-footer img {
+    width: 50px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .footer{
+        padding-left: 15vh;
+        padding-right: 15vh;
+    }
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .logo-footer img {
+        width: 80px;
+    }
+}

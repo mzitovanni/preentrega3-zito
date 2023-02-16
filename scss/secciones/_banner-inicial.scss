@@ -1,0 +1,103 @@
+/* BANNER INICIAL*/
+.banner-hero {
+    background-image: url(/recursos/imagenes/ZMB_banner-home.png);
+    height: 30vh;
+    background-size: cover;
+    box-shadow: 0px 4px 20px gray;
+}
+
+.banner-hero {
+    text-align: left;
+    color: antiquewhite;
+    padding: 2rem;
+    padding-right: 30vw;
+    position: relative;
+    top: 50%;
+}
+
+.banner-hero-servicios {
+    background-image: url(/recursos/imagenes/ZMB_banner-servicios.png);
+    height: 30vh;
+    background-size: cover;
+    box-shadow: 0px 4px 20px gray;
+}
+
+.banner-hero-servicios {
+    text-align: left;
+    color: antiquewhite;
+    padding: 2rem;
+    padding-right: 30vw;
+    position: relative;
+    top: 50%;
+}
+
+.banner-hero-quienesomos {
+    background-image: url(/recursos/imagenes/ZMB_banner-quienes-somos.png);
+    height: 30vh;
+    background-size: cover;
+    box-shadow: 0px 4px 20px gray;
+}
+
+.banner-hero-quienesomos {
+    text-align: left;
+    color: antiquewhite;
+    padding: 2rem;
+    padding-right: 30vw;
+    position: relative;
+    top: 50%;
+}
+
+.banner-hero-contacto {
+    background-image: url(/recursos/imagenes/ZMB_banner-contacto.png);
+    height: 30vh;
+    background-size: cover;
+    box-shadow: 0px 4px 20px gray;
+}
+
+.banner-hero-contacto {
+    text-align: left;
+    color: antiquewhite;
+    padding: 2rem;
+    padding-right: 30vw;
+    position: relative;
+    top: 50%;
+}
+
+
+
+
+@media (min-width: 768px) {
+.banner-hero {
+        height: 70vh;
+    }
+    
+    .banner-hero {
+        padding: 20vh;
+        padding-right: 30%;
+        font-size:180%;
+    }
+
+    .banner-hero-servicios {
+        height: 70vh;        
+    }
+
+    .banner-hero-servicios {
+        padding: 20vh;
+        padding-right: 40%;
+        font-size:180%;    
+    }
+
+    .banner-hero-quienesomos {
+        height: 70vh;
+        padding: 20vh;
+        padding-right: 40%;
+        font-size:180%;            
+    }
+
+    .banner-hero-contacto {
+        height: 70vh;
+        padding: 20vh;
+        padding-right: 40%;
+        font-size:180%;           
+    }  
+}

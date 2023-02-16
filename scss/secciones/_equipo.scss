@@ -1,0 +1,39 @@
+/* EQUIPO */
+
+.equipo-flex {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    padding-left: 20vh;
+    padding-right: 20vh;    
+}
+
+.equipo img{
+    width: 200px;
+    margin: 1.5rem;
+}
+
+.equipo-flex ul {  
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 1.5rem;
+
+}
+
+.equipo-flex li {
+    margin: 0.5rem;
+}
+
+.img-logo-linkedin {
+    width: 50px;
+}
+
+
+/* GRILLA DE EQUIPO */
+.equipo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 1rem;
+    vertical-align: center;
+}

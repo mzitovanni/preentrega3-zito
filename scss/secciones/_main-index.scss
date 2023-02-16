@@ -1,0 +1,171 @@
+/* DESCRIPCIÓN */
+.texo-descripcion {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.texo-descripcion p {
+    margin-top: 1rem;
+    font-size: 13px;
+}
+
+/* SERVICIOS */
+.servicio {
+    width: 50vw;
+    text-align: center;
+}
+
+.servicio img {
+    width: 40vw;
+    margin-bottom: 0.5rem;
+    filter: grayscale(40%);
+}
+
+.servicio p {
+    font-size: 13px;
+    margin-bottom: 2rem;
+    margin: 0.5rem;
+}
+
+.subtitulo-color {
+    background-color: #3d3f40;
+    color: antiquewhite;
+    text-align: center;
+
+    padding: 3rem;
+}
+
+/* GRILLA DE SERVICIOS - HOME */
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #3d3f40;
+    color: antiquewhite;
+    padding-bottom: 1rem;
+    vertical-align: center;
+}
+
+.button {
+    background-color: #3d3f40;
+    padding-bottom: 6rem;
+    padding-top: 2rem;
+}
+
+.button-text {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+    border-color: none;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.button-servicio {
+    margin: 0.5rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
+}
+
+/* CLIENTES */
+
+.subtitulo {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.clientes-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-bottom: 4rem;
+    padding: 1rem;
+    vertical-align: center;
+    margin-bottom: 4rem;
+}
+
+.clientes-grid img {
+    width: 15vw;
+    margin-bottom: 0.5rem;
+
+}
+
+
+
+@media (min-width: 768px) {
+
+    h2 {
+        font-size: xx-large;
+    }
+
+    .texo-descripcion {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        padding: 6rem;
+    }
+
+    .texo-descripcion p {
+        margin-top: 1rem;
+        padding-left: 15vh;
+        padding-right: 15vh;
+        font-size: 16px;
+    }
+
+    .servicio {
+        width: 20vw;
+    }
+
+    .servicio img {
+        width: 15vw;
+        margin-bottom: 2rem;
+    }
+
+    .servicio p {
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
+    .servicios-grid {
+        grid-template-columns: repeat(4, 1fr);
+        padding-bottom: 2rem;
+        padding-left: 15vh;
+        padding-right: 15vh;
+    }
+
+    .button-text {
+        margin-left: 40%;
+        margin-right: 40%;
+
+    }
+
+
+    .subtitulo {
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+
+    }
+
+    .subtitulo-color {
+        padding-top: 6rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .clientes-grid {
+        padding-left: 15vh;
+        padding-right: 15vh;
+
+    }
+
+    .clientes-grid img {
+        width: 8vw;
+        margin-bottom: 1.5rem;
+        align-content: center;
+    }
+}

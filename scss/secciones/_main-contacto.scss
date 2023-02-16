@@ -1,0 +1,55 @@
+/* CONTACTO */
+.contacto-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.contacto {
+    list-style: none;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: large;
+
+}
+
+
+
+/* FORMULARIO */
+.formulario {
+
+    padding-left: 40vh;
+    padding-right: 20vh;
+    vertical-align: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    background-color: #3d3f40;
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+
+.formulario input {
+
+    font-size: medium;
+    width: 50%;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+#botonform {
+    width: 20%;}
+
+.formulario h2 {text-align: left;}
+
+.legal {
+    font-size: 10px;
+}
