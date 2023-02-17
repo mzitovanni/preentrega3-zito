@@ -14,12 +14,17 @@
     top: 50%;
 }
 
+
+.noticia {
+    padding: 3rem;
+}
+
 @media (min-width: 768px) {
 
-    .banner-hero-noticia {
-        height: 70vh;
-        padding: 20vh;
-        padding-right: 40%;
-        font-size:180%;      
+.banner-hero-noticia {
+    height: 70vh;
+    padding: 20vh;
+    padding-right: 40%;
+    font-size: 180%;
     }
 }

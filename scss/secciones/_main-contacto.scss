@@ -1,59 +1,60 @@
-$azul-oscuro: #023047
-$gris-oscuro: #3d3f40
+$azuloscuro: #023047 $grisoscuro: #3d3f40
 
+        /* CONTACTO */
+        .contacto-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 15vh;
+        padding-right: 15vh;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
 
-/* CONTACTO */
-.contacto-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 15vh;
-    padding-right: 15vh;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
+    .contacto {
+        list-style: none;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: large;
 
-.contacto {
-    list-style: none;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: large;
-
-}
+    }
 
 
 
-/* FORMULARIO */
-.formulario {
+    /* FORMULARIO */
+    .formulario {
 
-    padding-left: 40vh;
-    padding-right: 20vh;
-    vertical-align: center;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
-    background-color: $gris-oscuro;
-    color: antiquewhite;
-    text-decoration: none;
+        padding-left: 40vh;
+        padding-right: 20vh;
+        vertical-align: center;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        background-color: $grisoscuro;
+        color: antiquewhite;
+        text-decoration: none;
 
-}
+    }
 
-.formulario input {
+    .formulario input {
 
-    font-size: medium;
-    width: 50%;
-    padding: 3px 10px;
-    border: 1px solid #f6f6f6;
-    border-radius: 3px;
-    background-color: #f6f6f6;
-    margin: 8px 0;
-    display: inline-block;
-}
+        font-size: medium;
+        width: 50%;
+        padding: 3px 10px;
+        border: 1px solid #f6f6f6;
+        border-radius: 3px;
+        background-color: #f6f6f6;
+        margin: 8px 0;
+        display: inline-block;
+    }
 
-#botonform {
-    width: 20%;}
+    #botonform {
+        width: 20%;
+    }
 
-.formulario h2 {text-align: left;}
+    .formulario h2 {
+        text-align: left;
+    }
 
-.legal {
-    font-size: 10px;
-}
+    .legal {
+        font-size: 10px;
+    }
